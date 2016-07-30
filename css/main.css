@@ -1,0 +1,42 @@
+body{
+    margin-top: 60px;
+    background: #000;
+}
+
+.navbar-prad{
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+.navbar-nav > li.active {
+    border-bottom: 1px solid #cecbcb;
+    font-weight: bold;
+}
+
+.container{
+    color:white;
+}
+
+.skills-container{
+    margin-top: 25%;
+    width: 650px;
+    margin-left: 20%;
+    background: black;
+    font-family: verdana;
+    height: 300px;
+    font-size: 48px;
+}
+
+.blink{
+    animation: 1s cur infinite;
+}
+
+@keyframes cur {
+    from,to{
+        color: transparent;
+    }
+
+    50%{
+        color: white;
+    }
+}
