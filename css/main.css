@@ -18,8 +18,8 @@ body{
 }
 
 .skills-container{
-    margin-top: 25%;
-    width: 650px;
+    margin-top: 15%;
+    width: 850px;
     margin-left: 20%;
     background: black;
     font-family: verdana;
@@ -39,4 +39,18 @@ body{
     50%{
         color: white;
     }
+}
+
+.logoText {
+    background: #000;
+    color: #fff;
+    padding: 12px 15px;
+    width: 100px;
+    border-radius: 87px;
+    height: 100px;
+}
+
+::selection {
+    color: black;
+    background: white;
 }
