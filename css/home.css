@@ -84,3 +84,11 @@ span.col-text {
     line-height: 50px;
     margin: 100px 0px;
 }
+
+.prad-javascript{
+    width: 70px;
+    height: 70px;
+    background: url("../img/javascript.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
